@@ -9,31 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700;800&family=Noto+Sans+Thai:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-bs sticky-top">
-  <div class="container-fluid px-3 px-lg-4">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html#home">
-      <!-- TODO: เปลี่ยน placeholder เป็นโลโก้จริง เช่น <img src="images/logo.png" ...> -->
-      <span class="brand-logo"><i class="bi bi-balloon-heart-fill"></i></span>
-      <span class="brand-text">Blue<br>Sky</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="เปิดเมนู">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link " href="index.html#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html#features">Features</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html#pricing">Price List</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html#social">Social</a></li>
-        <li class="nav-item"><a class="nav-link active" href="about.html">Team Members</a></li>
-      </ul>
-      <div class="theme-toggle ms-lg-3 mt-3 mt-lg-0" id="themeToggle" role="button" tabindex="0" aria-label="สลับโหมดมืด/สว่าง">
-        <i class="bi bi-moon-stars-fill moon"></i><i class="bi bi-brightness-high-fill sun"></i>
-      </div>
-    </div>
-  </div>
-</nav>
+<body data-page="about">
+<div id="site-nav"></div>
 
 <header class="page-head text-center">
   <div class="container">
@@ -53,7 +30,6 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
       <div class="col">
         <div class="glass-card p-4 text-center">
-          <!-- TODO: เปลี่ยนเป็น <img src="images/member1.jpg" class="member-photo rounded-circle object-fit-cover" alt="ชื่อ นามสกุล (1)"> -->
           <img src="Ken.jpg" class="member-photo rounded-circle object-fit-cover">
           <h3 class="h5 mb-1">ศิรวิชญ์ เสริมศิลปกุล</h3>
           <p class="member-role mb-3">CEO & Founder</p>
@@ -62,20 +38,18 @@
       </div>
       <div class="col">
         <div class="glass-card p-4 text-center">
-          <!-- TODO: เปลี่ยนเป็น <img src="images/member2.jpg" class="member-photo rounded-circle object-fit-cover" alt="ชื่อ นามสกุล (2)"> -->
-          <div class="member-photo placeholder-img"><i class="bi bi-person-fill"></i></div>
+           <img src="Kaew.png" class="member-photo rounded-circle object-fit-cover">
           <h3 class="h5 mb-1">ชบาแก้ว เปรมใจ</h3>
           <p class="member-role mb-3">Product Designer</p>
-          <a href="https://github.com/your-username-2" target="_blank" rel="noopener" class="btn btn-github btn-sm px-3"><i class="bi bi-github me-1"></i>GitHub Resume</a>
+          <a href="https://github.com/chabakaewpj" target="_blank" rel="noopener" class="btn btn-github btn-sm px-3"><i class="bi bi-github me-1"></i>GitHub Resume</a>
         </div>
       </div>
       <div class="col">
         <div class="glass-card p-4 text-center">
-          <!-- TODO: เปลี่ยนเป็น <img src="images/member3.jpg" class="member-photo rounded-circle object-fit-cover" alt="ชื่อ นามสกุล (3)"> -->
           <img src="Kim.jpg" class="member-photo rounded-circle object-fit-cover">
           <h3 class="h5 mb-1">ธรรมธัช บุญน้อย</h3>
           <p class="member-role mb-3">Frontend Developer</p>
-          <a href="https://github.com/your-username-3" target="_blank" rel="noopener" class="btn btn-github btn-sm px-3"><i class="bi bi-github me-1"></i>GitHub Resume</a>
+          <a href="https://randomsleepy.github.io/Individual-Project-IP1-/" target="_blank" rel="noopener" class="btn btn-github btn-sm px-3"><i class="bi bi-github me-1"></i>GitHub Resume</a>
         </div>
       </div>
       <div class="col">
